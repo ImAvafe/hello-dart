@@ -4,6 +4,7 @@
 library;
 
 export 'src/command_runner_base.dart';
+export 'src/arguments.dart';
 
 class CommandRunner {
   Future<void> run(List<String> input) async {
