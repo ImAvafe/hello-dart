@@ -30,6 +30,6 @@ class CommandRunner {
 
   String get usage {
     final executableFile = Platform.script.path.split('/').last;
-    return 'Usage: dart bin$executableFile <command> [argument?] [...options?]';
+    return 'Usage: dart bin/$executableFile <command> [argument?] [...options?]';
   }
 }
